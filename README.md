@@ -5,8 +5,8 @@ This python program estimates the value of Pi by randomly generating points (mon
 ## Control Flow and Description
 Random points (xy co-ordinates) are generated within a square. Within that square is a circle. The diameter of the circle is equal to the length
 of one side of the square. An estimate of Pi is calculated with the following formula:
-Pi is approximately equal to 4 * (Ninner/Ntotal)
-where Ninner is the number of points generated that fell within the bounds of the circle and Nouter is the total number of points generated.
+Pi is approximately equal to 4 * (Ninner/Nouter)
+where Ninner is the number of points generated that fell within the bounds of the circle and Nouter is the number of points generated that fell within the square but outside the circle.
 As more points are generated, the estimate of Pi tends closer and closer to its true value (allowing for fluctuations).
 The graph of these points is displayed on one axis. In another axis, the following values are displayed:
 the number of trials (points generated), the number of points inside the circle, the number of points outside the circle and the estimate of Pi.
